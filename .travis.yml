@@ -17,3 +17,5 @@ matrix:
           env: TOXENV=flake8
         - python: 3.5
           env: TOXENV=py35
+        - python: 3.4
+          env: TOXENV=docs
