@@ -333,3 +333,6 @@ pyvenv.cfg
 pip-selfcheck.json
 AUTHORS
 ChangeLog
+
+*.sublime-project
+*.sublime-workspace
