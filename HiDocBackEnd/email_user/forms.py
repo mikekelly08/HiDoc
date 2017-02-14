@@ -5,6 +5,10 @@ from django.contrib.auth import get_user_model
 from django.contrib.auth.forms import ReadOnlyPasswordHashField
 from django.utils.translation import ugettext_lazy as _
 
+# TODO: Aqui deberia de ir el pedir los datos de facturación?
+# Esque los usuarios que no sean doctores no tienen que dar su tarjeta de
+# credito. A menos que para esos usuarios hagamos otro portal separado.
+
 
 class EmailUserCreateForm(forms.ModelForm):
     """
